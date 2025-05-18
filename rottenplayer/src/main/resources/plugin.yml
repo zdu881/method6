@@ -1,0 +1,19 @@
+name: RottenPlayer
+version: 0.1
+description: Plays short videos on sheep.
+author: treyzania
+website: https://tr3y.io
+main: io.tr3y.rottenplayer.RottenPlayer
+database: false
+
+commands:
+  rottenplayer:
+    description: 'Main command for RottenPlayer to play videos.'
+    aliases: []
+    permission: rottenplayer.play
+    usage: '<x> <z> <dir> <filename> [<scale>] [<delay>]'
+
+permissions:
+  rottenplayer.play:
+    description: 'Allows using RottenPlayer.'
+
